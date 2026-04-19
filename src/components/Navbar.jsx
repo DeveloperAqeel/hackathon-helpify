@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
-import { useSelector } from 'react-redux';
 
 const Navbar = () => {
   const location = useLocation();

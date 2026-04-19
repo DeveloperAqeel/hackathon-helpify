@@ -9,7 +9,6 @@ const DashboardPage = () => {
      return <div className="container-custom py-12 text-center">Please login to view your dashboard.</div>;
   }
 
-  const firstName = user.fullName ? user.fullName.split(' ')[0] : 'there';
   const fullName = user.fullName || 'Anonymous';
 
   return (
